@@ -2,7 +2,7 @@
 resource "genesyscloud_routing_queue" "cicd_queue" {
   name                              = "CICD Queue NNI"
   division_id						            = var.cicd_division
-  description                       = "This is a CICD Check  Queue"
+  description                       = "This is a CICD Check Queue"
   acw_wrapup_prompt                 = "MANDATORY_TIMEOUT"
   acw_timeout_ms                    = 400000
   skill_evaluation_method           = "BEST"
