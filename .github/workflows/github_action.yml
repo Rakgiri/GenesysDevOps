@@ -49,7 +49,7 @@ jobs:
     - name: Terraform Init
       run: terraform init -input=false
 
- 
+   run: pwd
 
     # Generates an execution plan for Terraform
     - name: Terraform Plan
