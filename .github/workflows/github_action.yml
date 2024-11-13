@@ -49,6 +49,7 @@ jobs:
     - name: Terraform Init
       run: terraform init -input=false
 
+   -name: working directory
    run: pwd
 
     # Generates an execution plan for Terraform
